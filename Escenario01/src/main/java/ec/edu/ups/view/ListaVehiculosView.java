@@ -84,7 +84,7 @@ public class ListaVehiculosView extends javax.swing.JFrame {
         btnCerrar.setBackground(new java.awt.Color(255, 51, 51));
         btnCerrar.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         btnCerrar.setForeground(new java.awt.Color(0, 0, 0));
-        btnCerrar.setText("Salir");
+        btnCerrar.setText("Atras");
         btnCerrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCerrarActionPerformed(evt);
@@ -106,10 +106,7 @@ public class ListaVehiculosView extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCerrarActionPerformed
-        int confirm = JOptionPane.showConfirmDialog(this, "¿Está seguro que desea salir?", "Confirmar Salida", JOptionPane.YES_NO_OPTION);
-        if (confirm == JOptionPane.YES_OPTION) {
-            System.exit(0);
-        }
+        this.dispose();
     }//GEN-LAST:event_btnCerrarActionPerformed
   private void cargarDatos() {
         List<Vehiculo> vehiculos = controller.obtenerVehiculos();

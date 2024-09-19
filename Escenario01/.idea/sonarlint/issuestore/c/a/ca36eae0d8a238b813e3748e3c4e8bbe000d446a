@@ -1,0 +1,46 @@
+
+\
+java:S1192±"FDefine a constant instead of duplicating this literal "Error" 3 times.(Éûª
+b
+java:S11928"GDefine a constant instead of duplicating this literal "Arial" 12 times.(ÁË“¶ûÿÿÿÿ
+g	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆê«•
+g	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òá­Ü
+>
+java:S1604K"(Make this anonymous inner class a lambda(¡Ò¾å
+>
+java:S1604W"(Make this anonymous inner class a lambda(µ¸‰ú
+?
+java:S1604œ"(Make this anonymous inner class a lambda(áéÕ¿
+l	java:S116Ù"QRename this field "JbTipo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ë¤Øşÿÿÿÿ
+g	java:S116á"RRename this field "txtAÃ±o" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şöêg
+
+java:S1186Ô"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡şÏÖøÿÿÿÿ
+v
+java:S1450Ú"ZRemove the "btnCancelar" field and declare it as a local variable in the relevant methods.(Äí–üüÿÿÿÿ
+u
+java:S1450Û"YRemove the "btnGuardar" field and declare it as a local variable in the relevant methods.(‡‚€ùÿÿÿÿ
+r
+java:S1450Ü"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ
+r
+java:S1450İ"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ
+r
+java:S1450Ş"VRemove the "jLabel3" field and declare it as a local variable in the relevant methods.(Îä€øÿÿÿÿ
+s
+java:S1450ß"WRemove the "lblPlaca" field and declare it as a local variable in the relevant methods.(“Íãüÿÿÿÿ
+m
+java:S1450à"VRemove the "lblTipo" field and declare it as a local variable in the relevant methods.(•û×©
+B
+java:S1948",Make "controller" transient or serializable.(º»´Ó
+‚	java:S138"hThis method has 121 lines, which is greater than the 25 lines authorized. Split it into smaller methods.(ü·úÿÿÿÿ
+F
+java:S1172¨"*Remove this unused method parameter "evt".(à‡Àöøÿÿÿÿ
+W	java:S125©"<This block of commented-out lines of code should be removed.(·µˆ·úÿÿÿÿ
+A
+java:S1172Æ"*Remove this unused method parameter "evt".(ÔËÕ
+d	java:S100Í"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¹ˆğ
+A
+java:S1172Í"*Remove this unused method parameter "evt".(é¹ˆğ
+N
+java:S1135Î"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+F
+java:S1197Ô"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
