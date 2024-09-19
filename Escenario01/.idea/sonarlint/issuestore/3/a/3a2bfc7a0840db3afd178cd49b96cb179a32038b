@@ -1,8 +1,0 @@
-
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù×ÆŸþÿÿÿÿ
-k	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­æ–Åøÿÿÿÿ
-d	java:S116"ORename this field "aÃ±o" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÍûÝ
-T
-java:S5993"9Change the visibility of this constructor to "protected".(Ù×ÆŸþÿÿÿÿ
-h	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ðíØúÿÿÿÿ
-h	java:S1005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­æ–Åøÿÿÿÿ
