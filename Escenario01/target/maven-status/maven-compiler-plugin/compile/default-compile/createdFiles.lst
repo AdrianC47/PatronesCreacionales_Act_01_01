@@ -1,9 +1,0 @@
-modelo/Camioneta.class
-modelo/Camion.class
-modelo/Vehiculo.class
-modelo/Auto.class
-factory/VehiculoAbstractFactory.class
-view/VehiculoView.class
-factory/VehiculoFactory.class
-main/PatronesCreacionalesGrupo04.class
-controller/VehiculoController.class

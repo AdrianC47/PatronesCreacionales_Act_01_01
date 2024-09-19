@@ -1,9 +1,8 @@
-modelo/Camioneta.class
-modelo/Camion.class
-modelo/Vehiculo.class
-modelo/Auto.class
-factory/VehiculoAbstractFactory.class
-view/VehiculoView.class
-factory/VehiculoFactory.class
-main/PatronesCreacionalesGrupo04.class
-controller/VehiculoController.class
+ec/fin/edu/ups/escenario2/view/ActivoFijoView$1.class
+ec/fin/edu/ups/escenario2/view/ActivoFV$1.class
+ec/fin/edu/ups/escenario2/view/ActivoFijoView.class
+ec/fin/edu/ups/escenario2/modelo/builder/ActivoFijoBuilder.class
+ec/fin/edu/ups/escenario2/modelo/ActivoFijo.class
+ec/fin/edu/ups/escenario2/view/ActivoFijoView$2.class
+ec/fin/edu/ups/escenario2/controller/ActivoFijoController.class
+ec/fin/edu/ups/escenario2/view/ActivoFV.class

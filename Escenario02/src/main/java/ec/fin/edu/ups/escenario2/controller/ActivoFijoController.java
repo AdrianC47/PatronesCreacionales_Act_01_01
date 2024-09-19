@@ -28,6 +28,7 @@ public class ActivoFijoController {
     public void addActivoFijo(ActivoFijoView activoFijoView) {
         System.out.println("================================================================");
         System.out.println("Adding ActivoFijo...");
+        activoFijoBuilder = new ActivoFijoBuilder();
         this.activoFijoView = activoFijoView;
         if(activoFijoView.getCodigo() == null && activoFijoView.getCodigoNombres() == null && activoFijoView.getPrecio() == null){
             throw new IllegalStateException("Código, nombres, y precio son obligatorios");
