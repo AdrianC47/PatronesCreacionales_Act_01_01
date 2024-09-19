@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import controller.VehiculoController;
-import controller.factory.VehiculoFactory;
+import model.VehiculoFactory;
 import model.Vehiculo;
 
 /**

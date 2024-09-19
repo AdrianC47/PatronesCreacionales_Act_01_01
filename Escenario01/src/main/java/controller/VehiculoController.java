@@ -4,7 +4,7 @@
  */
 package controller;
 
-import controller.factory.VehiculoFactory;
+import model.VehiculoFactory;
 import java.util.ArrayList;
 import java.util.List;
 import model.Vehiculo;

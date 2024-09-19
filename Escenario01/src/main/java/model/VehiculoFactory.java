@@ -2,18 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package controller.factory;
-
-import model.Auto;
-import model.Camion;
-import model.Camioneta;
-import model.Vehiculo;
+package model;
 
 /**
  *
  * @author edisson
  */
-public class VehiculoFactory extends VehiculoAbstractFactory{
+public class VehiculoFactory extends VehiculoAbstractFactory {
 
     @Override
     public Vehiculo crearVehiculo(String tipo,String placa, String marca, String modelo, int año) {
