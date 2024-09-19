@@ -1,0 +1,13 @@
+
+d
+java:S2094"BRemove this empty class, write its code or make it an "interface".(þ‰šÇúÿÿÿÿ8€ÿ»¶ 2
+]	java:S125"<This block of commented-out lines of code should be removed.(õ–ôÄùÿÿÿÿ8ƒÿ»¶ 2
+W
+java:S1128":Remove this unused import 'controller.VehiculoController'.(Ñâã¢8„ÿ»¶ 2
+\
+java:S1128"?Remove this unused import 'controller.factory.VehiculoFactory'.(÷¾ºú8„ÿ»¶ 2
+P
+java:S1128	".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8„ÿ»¶ 2
+P
+java:S1128
+".Remove this unused import 'view.VehiculoView'.(žúÄëøÿÿÿÿ8„ÿ»¶ 2

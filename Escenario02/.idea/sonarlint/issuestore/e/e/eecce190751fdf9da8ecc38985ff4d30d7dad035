@@ -1,0 +1,22 @@
+
+m	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸®Å8‰Ù‰¯ 2
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€è­“øÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ĞÒæçÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ŒŒÒôşÿÿÿÿ
+@	java:S106 "+Replace this use of System.out by a logger.(È¾½’
+@	java:S106%"+Replace this use of System.out by a logger.(ñúæ‘
+E	java:S106*"+Replace this use of System.out by a logger.(­ßÚóıÿÿÿÿ
+h	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ô”›şÿÿÿÿ
+@	java:S106/"+Replace this use of System.out by a logger.(ê›
+E	java:S1061"+Replace this use of System.out by a logger.(É±Àûÿÿÿÿ
+@	java:S106<"+Replace this use of System.out by a logger.(·İá
+L	java:S106>"+Replace this use of System.out by a logger.(Ì—ÄÕşÿÿÿÿ8³Ù‰¯ 2
+G	java:S106@"+Replace this use of System.out by a logger.(ñü„ó8µÙ‰¯ 2
+ƒ	java:S138J"gThis method has 32 lines, which is greater than the 25 lines authorized. Split it into smaller methods.(Çµí‘8Š²¼¶ 2
+L	java:S106S"+Replace this use of System.out by a logger.(³¤Ã¡ıÿÿÿÿ8Œ²¼¶ 2
+G	java:S106T"+Replace this use of System.out by a logger.(Íì¾¦8Œ²¼¶ 2
+L	java:S106U"+Replace this use of System.out by a logger.(Óâ•ÿÿÿÿÿ8Œ²¼¶ 2
+G	java:S106V"+Replace this use of System.out by a logger.(‡ÃÃÂ8²¼¶ 2
+L	java:S106\"+Replace this use of System.out by a logger.(©é”·ıÿÿÿÿ8²¼¶ 2
+L	java:S106h"+Replace this use of System.out by a logger.(¬õÇßüÿÿÿÿ8²¼¶ 2
+G	java:S106k"+Replace this use of System.out by a logger.(ùğ8²¼¶ 2
