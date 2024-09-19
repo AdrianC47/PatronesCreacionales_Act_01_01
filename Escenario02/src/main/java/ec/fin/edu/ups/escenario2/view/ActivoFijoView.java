@@ -106,8 +106,6 @@ public class ActivoFijoView extends javax.swing.JFrame{
                 try {
                     process();
                     clean();
-                    javax.swing.JOptionPane.showMessageDialog(null,
-                    "Agregado!");
                 }catch (Exception ex) {
                     ex.printStackTrace();
                 }
@@ -130,7 +128,12 @@ public class ActivoFijoView extends javax.swing.JFrame{
         });
     }
     public void process(){
-        activoFijoController.addActivoFijo(this);
+        String result = activoFijoController.addActivoFijo(this);
+        if( result.isEmpty() || result == "") {
+            javax.swing.JOptionPane.showMessageDialog(null, "Agregado!", "Activos Fijos", JOptionPane.INFORMATION_MESSAGE);
+        }else{
+            javax.swing.JOptionPane.showMessageDialog(null, result, "Activos Fijos",  JOptionPane.ERROR_MESSAGE);
+        }
     }
 
     public void list(){
