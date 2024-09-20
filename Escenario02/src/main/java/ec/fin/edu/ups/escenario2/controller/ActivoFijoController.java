@@ -25,20 +25,34 @@ public class ActivoFijoController {
         return activoFijos;
     }
 
-    public void addActivoFijo(ActivoFijoView activoFijoView) {
+    public String addActivoFijo(ActivoFijoView activoFijoView) {
         System.out.println("================================================================");
         System.out.println("Adding ActivoFijo...");
         activoFijoBuilder = new ActivoFijoBuilder();
         this.activoFijoView = activoFijoView;
         if(activoFijoView.getCodigo() == null && activoFijoView.getCodigoNombres() == null && activoFijoView.getPrecio() == null){
-            throw new IllegalStateException("Código, nombres, y precio son obligatorios");
+            //throw new IllegalStateException("Código, nombres, y precio son obligatorios");
+            return "Código, nombres, y precio son obligatorios";
         }
         String sprecio = this.activoFijoView.getPrecio();
-        double precio = Double.parseDouble(sprecio);
+        double precio =0d;
+        try{
+            precio = Double.parseDouble(sprecio);
+        }catch(Exception e){
+            e.printStackTrace();
+            return "Precio debe ser número";
+        }
+
+
         int garantia = 0;
         String sgarantia = this.activoFijoView.getGarantia();
         if(sgarantia != null && !sgarantia.isEmpty()){
-            garantia = Integer.parseInt(sgarantia);
+            try{
+                garantia = Integer.parseInt(sgarantia);
+            }catch(Exception e){
+                e.printStackTrace();
+                return "Garantía debe ser número";
+            }
         }
 
         activoFijoBuilder.addCodigo(this.activoFijoView.getCodigo());
@@ -53,5 +67,6 @@ public class ActivoFijoController {
         activoFijos.add(activoFijo);
 
         System.out.println("ActivoFijo Added!");
+        return "";
     }
 }
